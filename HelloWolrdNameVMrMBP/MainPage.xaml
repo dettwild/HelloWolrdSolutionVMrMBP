@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="HelloWolrdNameVMrMBP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWolrdNameVMrMBP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="HelloMessage" Text="Hello, World - Let's do this!!" Margin="10" IsReadOnly="True"/>
+            <Button x:Name="ClickMe" Content="Click Me! Yes, right HERE"  Margin="10" HorizontalAlignment="Center" Click="ClickMe_Click"/>
+            <Button x:Name="myquit" Content="Reset Counter"  Margin="20" HorizontalAlignment="Center" Click="myquit_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
